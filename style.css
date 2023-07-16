@@ -17,7 +17,7 @@ nav{
   justify-content: space-between;
   align-items: center;
 }
-nav >ul{
+nav > ul {
   display: flex;
 }
 .nav-title{
@@ -51,3 +51,43 @@ nav li a{
 .banner-description{
   color: #424242;
 }
+.banner img{
+  margin-top: 20px;
+  width: 100%;
+}
+.btn-primary{
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.25rem;
+  background-color: #ff9000;
+  padding: 20px 25px;
+  cursor: pointer;
+  border: 0;
+}
+
+
+
+
+
+/* responsive site */
+
+@media screen and (max-width: 576px){
+  header{
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+
+/* tabler and medeia  */
+
+@media screen and (min-width: 576px) and(max-width:){
+  header{
+    padding: 50px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+
